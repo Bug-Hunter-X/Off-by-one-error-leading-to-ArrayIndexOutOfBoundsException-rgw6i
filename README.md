@@ -1,0 +1,3 @@
+# Java Off-by-One Error Example
+
+This repository demonstrates a common yet easily missed error in Java: the off-by-one error when iterating through arrays.  The `Bug.java` file contains code that attempts to access an array element beyond its bounds, resulting in an `ArrayIndexOutOfBoundsException`.  The correct solution is provided in `BugSolution.java`.  This illustrates the importance of carefully considering loop conditions when working with arrays or other data structures with fixed sizes.
